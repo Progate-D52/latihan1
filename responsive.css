@@ -5,11 +5,11 @@
   .heading h2{
     font-size:20px;
   }
-  .lesson{
+  .profile{
     width:50%;
     margin-bottom:50px;
   }
-  .message-wrapper h2{
+  .login form h3{
     font-size:20px;
   }
 }
@@ -20,7 +20,7 @@
   .top-wrapper{
     text-align:left;
   }
-  .top-wrapper h1{
+  .top-wrapper h1, h2, h3{
     font-size:24px;
     line-height:36px;
   }
@@ -31,13 +31,10 @@
   .menu-icon{
     display:block;
   }
-  .btn{
+  .login-submit{
     width:100%;
   }
-  .lesson{
-    width:100%;
-  }
-  .btn-message{
+  .profile{
     width:100%;
   }
   footer{
