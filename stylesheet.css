@@ -9,11 +9,18 @@ body {
   font-family: "Lucida Grande";
 }
 
+.menu-icon {
+  display: none;
+}
+
+.clear {
+  clear: left;
+}
+
 .container {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
-
 }
 
 header {
@@ -159,9 +166,11 @@ input, textarea {
   text-align: center;
   margin-left: 20px;
   width: 400px;
+  box-shadow: 7px 7px #3CB371;
 }
 
 .login-submit:active {
+  box-shadow: none;
   position: relative;
   top: 7px;
   left: 7px;
