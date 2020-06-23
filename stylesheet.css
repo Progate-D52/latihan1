@@ -151,12 +151,35 @@ input, textarea {
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  border: 1px solid #191970;
 }
 
 .login-submit {
   background-color: #3CB371;
   color: #191970;
+  text-align: center;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.login-submit:active {
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.hub h3 {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.hub p {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.hub a {
+  font-style: italic;
+  color: #8B0000;
 }
 
 .top-wrapper {
