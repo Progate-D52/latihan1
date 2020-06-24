@@ -129,6 +129,8 @@ a {
   width: 20%;
 }
 
+.profile:hover {transform: translateY(-10px);  }
+
 .profile p {
   padding-top: 15px;
   line-height: 5px;
